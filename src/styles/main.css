@@ -1,0 +1,128 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+article {
+    height: 100vh;
+}
+nav {
+    height: 10vh;
+}
+.navbar{
+    padding: 0px !important;
+}
+.navbar-brand{
+    margin-top: 1vh;
+    margin-left: 5vh;
+}
+.navbar-toggler{
+    margin-top: 1vh;
+    margin-right: 5vh;
+}
+.navbar-collapse{
+    background-color: white;
+    width: 100%;
+}
+.navbar-nav li{
+    padding: 2vh !important;
+}
+.navbar-nav li:hover{
+    transition: 0.5s;
+    border-bottom: 0.5vh solid black;
+}
+
+/* NAVBAR */
+
+/* GLOBAL CASES */
+#global_cases{
+    position: relative;
+    background-color: black;
+    color: white;
+}
+#global_cases h1{
+    margin-top: 5vh;
+    font-size: 10vh;
+}
+#global_cases h2{
+    margin-top: 5vh;
+    font-size: 8vh;
+}
+.death{
+    color : red ;
+}
+.recovered{
+    color : green ;
+}
+#global_cases p{
+    font-size: 5vh;
+}
+#global_cases > div{
+    border: 1vh solid white;
+}
+/* GLOBAL CASES */
+
+/* CASES PER COUNTRY */
+#cases_per_country{
+    padding-top: 10vh;
+}
+#cases_per_country > div {
+    margin-top: 10vh;
+    margin-bottom: 0px ;
+}
+.countrysearch{
+    outline: none;
+    height: 7vh;
+}
+.countrylist{
+    height: 60vh;
+    overflow-y: scroll;
+
+}
+.card {
+    margin: 1vh;
+}
+
+/* DATA SOURCE */
+#data_source{
+    padding-top: 10vh;
+}
+#data_source > div {
+    margin-top: 10vh;
+}
+#link_data_source {
+    margin-top: 20vh;
+}
+
+/* About Me */
+#about_me{
+    padding-top: 10vh;
+}
+#data_source > div {
+    margin-top: 10vh;
+}
+
+/* Footer */
+footer{
+    color : white ;
+    height: 15vh;
+}
+footer p{
+    padding-top: 5vh;
+}
+@media screen and (max-width:1300px){
+    #global_cases h1{
+        font-size: 8vh;
+    }
+    #global_cases h2{
+        font-size: 6vh;
+    }
+    #global_cases p{
+        font-size: 3vh;
+    }
+    
+}
